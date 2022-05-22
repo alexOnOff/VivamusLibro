@@ -1,0 +1,142 @@
+h1{
+    color: black;
+    font: 50pt "Freestyle Script";
+    margin-top: 10px;
+    margin-bottom: 5px;
+}
+
+h2{
+    color: black;
+    margin-top: 5px;
+    font: 25pt Garamond;
+}
+
+h3{
+    color:  black;
+    margin-top: 20px;
+    margin-left: 30px;
+    font: 30pt "Garamond";
+}
+
+h5{
+    color:  black;
+    margin-top: 20px;
+    margin-left: 30px;
+    font: 20pt "Garamond";
+}
+
+#header{
+    margin-top: 60px;
+    margin-left: 300px;
+    margin-right: 300px;
+    height: 200px;
+    background-color: lightgrey;
+}
+
+#sidebar{
+    background-color: white;
+    margin-left: 300px;
+    margin-right: 300px;
+    height: 40px;
+    top: 0;
+    position: fixed;
+}
+
+#sedibar_buttom{
+    margin-left: 50px;
+    margin-right: 40px;
+    font: 25pt "Garamond";
+    color: black;
+}
+
+
+#main_text{
+    color: black;
+    font: 14pt Garamond;
+    margin-left: 10px;
+}
+
+textarea{
+    width: 10%;
+}
+
+form{
+    background-color:#ffffff;
+    font: 20pt Garamond;
+    width:40%;
+    height: 50%;
+    margin:100px auto;
+    padding:15px;
+}
+form div {
+  position: relative;
+}
+
+::placeholder {
+    color: grey;
+    font: 10pt Garamond;
+    text-transform: uppercase;
+}
+
+input[type="text"], input[type="email"], input[type="number"], input[type="date"] {
+  border: 2px solid;
+  outline: none;
+  margin: 0;
+  width: 90%;
+  padding: 10px 15px;
+  background: lightgrey;
+}
+
+input[type="text"]:focus, input[type="email"]:focus, input[type="number"], input[type="date"] {
+  box-shadow: inset 0 0 0 2px rgba(0,0,0,.2);
+}
+
+
+button {
+  padding: 10px 0;
+  border-width: 0;
+  width: 200px;
+  margin: 25px auto 0;
+  background: lightgrey;
+  color: black;
+  font: 12pt Garamond;
+  outline: none;
+  text-transform: uppercase;
+    cursor: pointer;
+}
+
+button:hover {
+    background: grey; color: lightgrey;
+}
+
+input:valid {
+  border-color: black;
+}
+
+input:invalid {
+  border-color: red;
+}
+
+input.error {
+	border: 1px solid #ff0000;
+}
+
+label.error {
+	color: #ff0000;
+	font-weight: normal;
+}
+
+label.error.fail_alert{
+    border: 1px solid red;
+    border-radius: 2px;
+    line-height: 1;
+    padding: 2px 0 6px 6px;
+    background: #ffe6eb;
+    font: 12pt Garamond;
+}
+
+input.valid.success-alert {
+    border: 2px solid #4CAF50;
+    color: green;
+}
+

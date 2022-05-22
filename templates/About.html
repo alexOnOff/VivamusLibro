@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+{% load static %}
+<head>
+    <meta charset="UTF-8">
+    <title>About Us</title>
+    <link rel="stylesheet" href="{% static 'CSS/style.css'%}">
+</head>
+
+<body>
+<body style="background-image: url(/static/Pictures/background.jpg)">
+        <div id="sidebar">
+        <a id="sedibar_buttom" href="Home" style="text-decoration: none;" >
+            Главная
+        </a>
+        <a id="sedibar_buttom"  href="Library" style="text-decoration: none;">
+            Библиотека
+        </a>
+        <a id="sedibar_buttom">
+            Рейтинг
+        </a>
+         <a id="sedibar_buttom">
+            Сообщество
+        </a>
+         <a id="sedibar_buttom" href="About" style="text-decoration: none;">
+            О нас
+        </a>
+        <a id="sedibar_buttom"  href="Authorization" style="text-decoration: none;">
+            Вход
+        </a>
+    </div>
+
+    <div id="header">
+        <img src="/static/Pictures/logo.jpg" align="left" height="200px" width="200px">
+        <h1 align="center"> Vivamus Libro </h1>
+        <h2 align="center"> Истории, которые оживают </h2>
+    </div>
+
+
+
+
+    <div id="main">
+        <div> <h3> О нас </h3> </div>
+        <div>
+            <p id="main_text">Мы команда (из одного человека) начинающих web-разработчиков, а этот сайт - наш первый проект.
+            Надеюсь, что вы простите все косяки, потому что единственное, что я умею в этой жизни - это дышать.
+                А теперь я приведу примеры использования ненумерованного списка.
+            Факты о  разработчике: </p>
+            <ul id="main_text">
+                <li>Карташев Алексей</li>
+                <li>НИУ МИЭТ, Институт СПИНТех, гр. ПИН-34</li>
+                <li>Староста</li>
+            </ul>
+            <p id="main_text"> А теперь пример нумерованного списка. Реквизиты для доната:</p>
+            <ol id="main_text">
+                <li>СБЕР: +7(928)960-81-33</li>
+                <li>Тинькофф: +7(977)959-23-29</li>
+            </ol>
+        </div>
+
+    </div>
+
+    <div id="bottom">
+         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris dui nisl, interdum et eleifend vel, semper at diam. Etiam fermentum.</p>
+    </div>
+</body>
+
+</body>
+</html>
